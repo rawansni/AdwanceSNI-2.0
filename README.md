@@ -2,7 +2,7 @@
   <br>
   <a href="https://github.com/rawansni/AdwanceSNI-2.0"><img src="https://img.shields.io/badge/AdwanceSNI-2.0-blue?style=for-the-badge&logo=github" alt="AdwanceSNI"></a>
   <br>
-  AdwanceSNI 2.0
+ GAURAV ROCK 
   <br>
 </h1>
 
@@ -100,15 +100,27 @@ bash run.sh
     </tr>
     <tr>
       <td align="center">
-        <a href="https://github.com/rawansni"><strong>YADAV</strong></a><br>
+        <a href="https://github.com/rawansni"><strong>MAURYA</strong></a><br>
         (Core Logic, Coding, Integration)
       </td>
       <td align="center">
-        <strong>Ayan Rajput</strong><br>
+        <strong>YADAV t</strong><br>
         (Normal Scanner, Subdomain CMS API)
       </td>
       <td align="center">
-        <strong>Amith</strong><br>
+        <strong>KAAL</strong><br>
+        (UI/UX Concepts)
+      </td>
+    </tr>
+  </table>
+  
+  <br>
+  
+  <p><strong>Contact:</strong> <a href="mailto: ROBINHOOD_SD">ROBINHOOD PAPA/a></p>
+  <p><strong>Telegram:</strong> <a href="https://t.me/ROBINHOOD_SD">@SirYadav</a></p>
+
+  <img src ="https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F%20in-India-orange?style=for-the-badge">
+</div>
         (UI/UX Concepts)
       </td>
     </tr>
