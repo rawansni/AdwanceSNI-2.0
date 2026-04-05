@@ -99,8 +99,8 @@ def show_menu():
     
     menu = f"""
     {BOLD}{LIGHT_GREEN}=============================={RESET}
-    {BOLD}{YELLOW}[1]{RESET} - Find Subdomains
-    {BOLD}{YELLOW}[2]{RESET} - Scan Hosts
+    {BOLD}{YELLOW}[1]{RESET} - VIP Find Subdomains
+    {BOLD}{YELLOW}[2]{RESET} - VIP Scan Hosts
     {BOLD}{YELLOW}[3]{RESET} - Extract IP/Domain
     {BOLD}{YELLOW}[4]{RESET} - Generate IPs
     {BOLD}{YELLOW}[5]{RESET} - Split Files
@@ -115,8 +115,8 @@ def show_subdomain_menu():
     # Subdomain  options
     menu = f"""
     {BOLD}{LIGHT_GREEN}=============================={RESET}
-    {BOLD}{YELLOW}[1]{RESET} - Use Subfinder
-    {BOLD}{YELLOW}[2]{RESET} - Use API Scanner
+    {BOLD}{YELLOW}[1]{RESET} -  Subfinder
+    {BOLD}{YELLOW}[2]{RESET} -  API Scanner
     {BOLD}{LIGHT_GREEN}=============================={RESET}
     """
     print(menu)
@@ -125,8 +125,8 @@ def show_scan_host_menu():
     # Scanner options
     menu = f"""
     {BOLD}{LIGHT_GREEN}=============================={RESET}
-    {BOLD}{YELLOW}[1]{RESET} - FlashScan (Recommended)
-    {BOLD}{YELLOW}[2]{RESET} - Normal Scanner (Standard)
+    {BOLD}{YELLOW}[1]{RESET} - FASTScan (HIGHT DIVICE)
+    {BOLD}{YELLOW}[2]{RESET} - Normal Scanner (LOW DIVICE)
     {BOLD}{LIGHT_GREEN}=============================={RESET}
     """
     print(menu)
@@ -138,7 +138,7 @@ def update_scripts():
         print(f"{BOLD}{BLUE}[*] Updating...{RESET}")
         command = "git fetch --all && git reset --hard origin/main && git log -1 --pretty=format:\"%s%ncommit %H%nAuthor: %an%nDate: %ad\""
         subprocess.run(command, shell=True, check=True)
-        print(f"{BOLD}{GREEN}[+] Updated successfully!{RESET}")
+        print(f"{BOLD}{GREEN}[+] sexx successfully!{RESET}")
     except subprocess.CalledProcessError:
         print(f"{BOLD}{RED}[!] Update failed.{RESET}")
     except Exception as e:
